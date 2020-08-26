@@ -6,7 +6,15 @@ Imagine patient record data that is held in a cluster which has been secured to 
 
 In this example we will add some additional controls to an example system based on Centos.
 
-Notes/TODO
+
+## Setup
+(Tested on GCP Red Hat 7)
+sudo yum install -y git
+git clone https://github.com/m-adams/lockdown-sudo-for-elasticsearch.git
+cd lockdown-sudo-for-elasticsearch/
+sudo ./setup.sh
+
+## Notes/TODO
 - Create an example sudo admin
 - Add Elasticsearch
 - Add some data
